@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Ovo');
+
+$primary: #00ff87 !default;
+@import "bootstrap/scss/bootstrap";
+
+
+footer{
+    margin-bottom: 1.5rem;
+}
+
+.ico-timer{
+    margin: auto 0;
+   
+    background:transparent;
+    border: rgba($primary, 0.5) solid 0.2rem; 
+    border-radius: 3rem;
+    .row{
+        margin: 1rem 0rem;
+        .col{
+        align-self: center;
+        }
+    }
+    h1{
+        margin-bottom: 3rem;
+    }
+    
+}
+
+.navbar{
+height: 5rem;    
+}
+.CD-item{
+        background:linear-gradient(to bottom, transparent, rgba($black, 0.1) 10%, rgba($black, 0.1) 90%, transparent 100%);
+        
+    h3{
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: rgba($black, 0.1);
+    }
+    p{
+        font-size: 0.8rem
+    }
+}
+
+#topCont{
+   background: linear-gradient(to bottom, rgba(darken($purple, 10%), 0.4) 20%, rgba(darken($purple, 10%), 0.8) 100%);
+}
+
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 28rem;
+}
+.embed-responsive-16by9
+{
+    width:25rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
