@@ -1,6 +1,6 @@
 var countdownHandler = (function(){
     var initDone=false;
-    var countDownDate = new Date("Dec 20, 2018 15:37:25").getTime();
+    var countDownDate = new Date("Dec 20, 2019 15:37:25").getTime();
     
     function _init()
     {
